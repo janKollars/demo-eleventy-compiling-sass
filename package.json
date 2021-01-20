@@ -1,0 +1,17 @@
+{
+  "name": "demo-eleventy-compiling-sass",
+  "version": "1.0.0",
+  "description": "Demo project which shows how you can use Eleventy for compiling your SASS.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "ELEVENTY_ENV=production eleventy"
+  },
+  "author": "Jan Kollars",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "glob": "^7.1.6",
+    "sass": "^1.32.5"
+  }
+}
